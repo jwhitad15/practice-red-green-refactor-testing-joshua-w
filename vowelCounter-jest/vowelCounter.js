@@ -1,8 +1,6 @@
 function vowelCounter (str) {
-    
-    // let totalNumber = 0;
 
-        let arrayOfVowels = ["a", "e", "i", "o", "u",];
+    let arrayOfVowels = ["a", "e", "i", "o", "u",];
     let lowerCase = str.toLowerCase();
     let input = lowerCase.split("").reduce((prev, current) => {
             if (arrayOfVowels.includes(current.toLowerCase())) {
@@ -11,14 +9,6 @@ function vowelCounter (str) {
                 return prev
             }
 
-    // for (let character of str) {
-    //     if (/[aeiou]/gi.test(character.toLowerCase())) {
-    //         index++;
-    //     }
-    // }
-    
-
-    // return totalNumber 
 }, 0);
 
     return input;
