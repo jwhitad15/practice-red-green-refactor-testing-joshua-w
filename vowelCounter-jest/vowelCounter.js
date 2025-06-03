@@ -20,6 +20,8 @@ function vowelCounter (str) {
 
     // return totalNumber 
 }, 0);
+
+    return input;
 };
 
 console.log(vowelCounter("aldks alsdkdwer"))
